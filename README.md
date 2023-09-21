@@ -6,10 +6,9 @@ Build predictive models using deep neural networks in TensorFlow, and apply them
   * Introduction to RNNs
   * Basic RNN Architecture
   * Advanced RNN Architecture -- GRU and LSTM
+    * Both models have their own unique internal mechanism for addressing the vanishing gradient problem (a common issue in traditional RNNs).
     
-        * Both models have their own unique internal mechanism for addressing the vanishing gradient problem (a common issue in traditional RNNs).
-    
-        * **vanishing gradient problem : as networks become deeper, the influence of a given input on the hidden layers, and ultimately the output, tends to either decay to 0 or blow up exponentially as it cycles through the recurrence process. This problem compounds with longer sequences.
+    * **vanishing gradient problem : as networks become deeper, the influence of a given input on the hidden layers, and ultimately the output, tends to either decay to 0 or blow up exponentially as it cycles through the recurrence process. This problem compounds with longer sequences.
     
     RNNs :
 
@@ -17,9 +16,9 @@ Build predictive models using deep neural networks in TensorFlow, and apply them
     
            2. Gated Recurrent Units (GRUs) : include gates inside the nodes that determine what information to retain and what to forget.
     
-        * Commonly used : LSTM > plain RNNs
+    * Commonly used : LSTM > plain RNNs
     
-        * Architecture simplicity : GRU > LSTM
+    * Architecture simplicity : GRU > LSTM
   * Advanced RNN Architecture -- Convolutional Layers
   * Time Series Forecasting with RNNs
   * 
