@@ -23,6 +23,7 @@ Build predictive models using deep neural networks in TensorFlow, and apply them
     * Architecture simplicity : GRU > LSTM
   * Advanced RNN Architecture -- Convolutional Layers
   * Time Series Forecasting with RNNs
-  * 
+  * Guided Project: Time-Series Forecasting on the S&P 500
+    - Our goal is to build a successful model to forecast how this index will move based on its past behavior.
 * Natural Language Processing for Deep Learning
 * Convolutional Neural Networks for Deep Learning
